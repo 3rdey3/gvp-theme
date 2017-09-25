@@ -109,7 +109,14 @@
 			"settings": {
 				"foreground": "#34A853"
 			}
-		},
+        },
+        {
+            "name": "All Source",
+            "scope": "source",
+            "settings": {
+                "foreground": "#4285F4"
+            }
+        },
 		{
 			"name": "Operators",
 			"scope": "keyword.operator, operator.annotation.type.keyword, var.expr.primitive.annotation.type.keyword.meta",
