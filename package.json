@@ -1,0 +1,27 @@
+{
+    "name": "gvptheme",
+    "displayName": "GVP Theme",
+    "description": "Google Vim Coloscheme Primary Theme",
+    "version": "0.0.1",
+    "publisher": "3rdey3",
+    "engines": {
+        "vscode": "^1.15.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "GVP Theme",
+                "uiTheme": "vs",
+                "path": "./themes/light.json"
+            },
+            {
+                "label": "GVP Theme Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark.json"
+            }
+        ]
+    }
+}
